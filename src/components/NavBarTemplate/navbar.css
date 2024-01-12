@@ -1,0 +1,27 @@
+#navbar {
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.76);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+nav {
+    padding: 0.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.socials-links {
+    padding: 0.5rem;
+}
+
+.social-icon {
+    padding: 0 0.75rem;
+    font-size: 2rem;
+}

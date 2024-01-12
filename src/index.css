@@ -1,41 +1,5 @@
 html {
     scroll-behavior: smooth;
-    background-color: black;
-    color: white;
-}
-
-#navbar {
-    display: flex;
-    /*justify-content: space-between;*/
-    /*align-content: center;*/
-}
-
-.header-image {
-    height: 100vh;
-}
-
-.header {
-    background-image: url("/Users/claudialim/sites/academyServer/html/portfolio-rebuild/src/assets/milad-fakurian-u8Jn2rzYIps-unsplash.jpg");
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-nav {
-    position: fixed;
-    top: 0.5rem;
-}
-
-.socials-links {
-    position:fixed;
-    top: 0.5rem;
-    right: 0;
-}
-
-.social-icon {
-    margin: 0 0.5rem;
-    font-size: 2rem;
+    color: #000000;
+    background-color: #ffffff;
 }

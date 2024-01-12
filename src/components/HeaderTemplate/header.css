@@ -1,0 +1,23 @@
+.header-image {
+    height: 100vh;
+}
+
+.header {
+    background-image: url("/Users/claudialim/sites/academyServer/html/portfolio-rebuild/src/assets/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation-name: header-animation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    color: #ffffff;
+}
+
+@keyframes header-animation {
+    from {color: rgba(255, 255, 255, 0);}
+    to {color: #ffffff;}
+}
+

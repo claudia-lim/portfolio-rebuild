@@ -2,6 +2,7 @@ import ButtonAtom from "../ButtonAtom/index.jsx";
 import LogoAtom from "../LogoAtom/index.jsx";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import "./navbar.css"
 
 function NavBarTemplate() {
     return (
