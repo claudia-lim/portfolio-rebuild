@@ -5,26 +5,26 @@ import HeaderTemplate from "./components/HeaderTemplate/index.jsx";
 import SkillsTemplate from "./components/SkillsTemplate/index.jsx";
 import AboutTemplate from "./components/AboutTemplate/index.jsx";
 import ProjectsTemplate from "./components/ProjectsTemplate/index.jsx";
-import ContactsTemplate from "./components/ContactsTemplate/index.jsx";
+import ContactTemplate from "./components/ContactTemplate/index.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <>
+      <main id="home">
           <NavBarTemplate/>
           <HeaderTemplate />
           <SkillsTemplate />
           <AboutTemplate />
           <ProjectsTemplate />
-          <ContactsTemplate />
+          <ContactTemplate />
 
           <div className="card">
               <button onClick={() => setCount((count) => count + 1)}>
                   count is {count}
               </button>
           </div>
-      </>
+      </main>
   )
 }
 

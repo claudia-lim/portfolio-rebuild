@@ -1,4 +1,4 @@
-function Button(props) {
+function ButtonAtom(props) {
     return (
         <>
             <button>
@@ -8,4 +8,4 @@ function Button(props) {
     )
 }
 
-export default Button
+export default ButtonAtom

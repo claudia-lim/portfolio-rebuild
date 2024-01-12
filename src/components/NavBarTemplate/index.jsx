@@ -1,18 +1,18 @@
-import Button from "../Button/index.jsx";
+import ButtonAtom from "../ButtonAtom/index.jsx";
 
-function NavBarTemplate(props) {
+function NavBarTemplate() {
     return (
         <>
             <nav>
-                <Button linkurl="http://www.bbc.co.uk" link="Home" />
-                <Button linkurl="" link="About" />
-                <Button linkurl="" link="Skills" />
-                <Button linkurl="" link="Portfolio" />
-                <Button linkurl="" link="Contact" />
+                <ButtonAtom linkurl="#home" link="Home" />
+                <ButtonAtom linkurl="#skills" link="Skills" />
+                <ButtonAtom linkurl="#about" link="About" />
+                <ButtonAtom linkurl="#projects" link="Projects" />
+                <ButtonAtom linkurl="#contact" link="Contact" />
             </nav>
             <div className="socials-links">
-                <Button linkurl="" link="Github" />
-                <Button linkurl="" link="LinkedIn" />
+                <ButtonAtom linkurl="" link="Github" />
+                <ButtonAtom linkurl="" link="LinkedIn" />
             </div>
         </>
     )
