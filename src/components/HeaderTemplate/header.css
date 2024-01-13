@@ -10,14 +10,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #363638;
     animation-name: header-animation;
-    animation-duration: 3s;
+    animation-duration: 2s;
+    animation-delay: 1s;
     animation-timing-function: ease-in-out;
-    color: #ffffff;
 }
 
+
 @keyframes header-animation {
-    from {color: rgba(255, 255, 255, 0);}
-    to {color: #ffffff;}
+    from {color: rgba(54, 54, 56, 0.03);}
+    to {color: #363638;}
 }
 
