@@ -3,7 +3,7 @@ import {faC, faL} from "@fortawesome/free-solid-svg-icons";
 
 function LogoAtom () {
     return (
-        <div>
+        <div className="logo">
             <FontAwesomeIcon icon={faC} />
             <FontAwesomeIcon icon={faL} />
         </div>
