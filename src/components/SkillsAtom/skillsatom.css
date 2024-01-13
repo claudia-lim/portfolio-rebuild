@@ -2,9 +2,11 @@
     font-size: 2rem;
     margin: 0;
 }
+
 p {
     margin: 0;
 }
+
 .skill-type {
     display: flex;
     flex-direction: column;
@@ -12,4 +14,10 @@ p {
     align-items: center;
     border: 1px solid;
     padding: 1rem;
+}
+
+.skill-hover {
+    /*border: 1px solid red;*/
+    background-color: #363638;
+    color: #ffffff;
 }

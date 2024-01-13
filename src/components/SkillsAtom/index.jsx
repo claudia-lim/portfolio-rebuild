@@ -1,10 +1,25 @@
 import './skillsatom.css';
-function SkillsAtom ({icon, skillName}) {
+import {useState} from "react";
+function SkillsAtom ({icon, skillName, link}) {
+
+    const [hover, setHover] = useState("");
+
+    function onMouseOver() {
+        setHover("skill-hover");
+    }
+    function onMouseOut() {
+        setHover("");
+    }
+
     return (
-        <div className="skill-type">
-            <p className="skill-icon">{icon}</p>
-            <p>{skillName}</p>
-        </div>
+        <a target="_blank" href={link}>
+            <div onMouseOver={onMouseOver} onMouseOut={onMouseOut} className={'skill-type ' + hover}>
+
+                <p className="skill-icon">{icon}</p>
+                <p>{skillName}</p>
+
+</div>
+        </a>
     )
 }
 
