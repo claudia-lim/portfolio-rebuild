@@ -1,0 +1,15 @@
+.skill-icon {
+    font-size: 2rem;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+.skill-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 1rem;
+}
