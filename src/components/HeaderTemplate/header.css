@@ -2,10 +2,12 @@
     background-image: url("/Users/claudialim/sites/academyServer/html/portfolio-rebuild/src/assets/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg");
     height: 100vh;
     background-size: cover;
+    background-position: center;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     justify-content: center;
     align-items: center;
+    gap: 1rem;
     /*padding-left: 25vw;*/
     animation-name: header-animation;
     animation-duration: 2s;
@@ -14,8 +16,32 @@
     animation-timing-function: ease-in-out;
 }
 
+.header img {
+    width: 20%;
+    /*filter: grayscale(50%);*/
+}
+
+.header h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
 @keyframes header-animation {
     from {color: rgba(54, 54, 56, 0.00);}
     to {color: #363638;}
 }
 
+@media screen and (max-width:500px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header-text {
+        text-align: center;
+    }
+
+    .header img {
+        width: 50vw;
+    }
+}

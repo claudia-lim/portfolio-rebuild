@@ -8,7 +8,7 @@ function SkillsTemplate () {
 
     return (
         <div>
-            <h3>Skills Section</h3>
+            <h3 className="skills-title">Skills Section</h3>
             <div id="skills">
                 <SkillsAtom icon={<FontAwesomeIcon icon={faPhp} />} skillName="PHP" link="https://github.com/claudia-lim?tab=repositories&q=&type=&language=php&sort="/>
                 <SkillsAtom icon={<FontAwesomeIcon icon={faJs}/>}  skillName="Javascript" link="https://github.com/claudia-lim?tab=repositories&q=&type=&language=javascript&sort="/>
