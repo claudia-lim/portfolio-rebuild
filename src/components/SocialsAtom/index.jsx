@@ -1,4 +1,4 @@
-
+import "./socials.css"
 function SocialsAtom({icon, link}) {
 
     return (
