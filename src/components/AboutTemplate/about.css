@@ -1,9 +1,11 @@
 #about-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 1rem;
+}
+
+#about-section h3 {
+    align-self: center;
 }
 .emphasis {
     font-weight: bold;
