@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "name": "project1 test",
+      "src": "https://placedog.net/500/300",
+      "alt": "test1",
+      "liveLink": "https://placedog.net/500/300",
+      "githubLink": "",
+      "description": "project 1 test"
+    },
+    {
+      "name": "test2",
+      "src": "https://placedog.net/200/300",
+      "alt": "test2",
+      "liveLink": "",
+      "githubLink": "",
+      "description": "project 2 test"
+    },
+    {
+      "name": "test3",
+      "src": "https://placedog.net/800/300",
+      "alt": "test3",
+      "liveLink": "",
+      "githubLink": "",
+      "description": "project 3 test"
+    }
+  ]
+}
