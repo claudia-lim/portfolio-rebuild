@@ -1,0 +1,14 @@
+#about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.emphasis {
+    font-weight: bold;
+}
+
+.emphasis a:hover{
+    color: red;
+}
