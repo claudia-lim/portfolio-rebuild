@@ -13,8 +13,8 @@ function NavBarTemplate() {
             <nav>
                 <LogoAtom />
                 <ButtonAtom linkurl="#home" link="Home" />
-                <ButtonAtom linkurl="#skills" link="Skills" />
-                <ButtonAtom linkurl="#about" link="About" />
+                <ButtonAtom linkurl="#skills-section" link="Skills" />
+                <ButtonAtom linkurl="#about-section" link="About" />
                 <ButtonAtom linkurl="#projects" link="Projects" />
                 <ButtonAtom linkurl="#contact" link="Contact" />
             </nav>

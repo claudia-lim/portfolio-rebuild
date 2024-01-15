@@ -11,14 +11,18 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <main id="home">
+      <>
+          <a id="home"></a>
           <NavBarTemplate/>
           <HeaderTemplate />
-          <SkillsTemplate />
-          <AboutTemplate />
-          <ProjectsTemplate />
-          <ContactTemplate />
-      </main>
+          <main>
+              <SkillsTemplate />
+              <AboutTemplate />
+              <ProjectsTemplate />
+              <ContactTemplate />
+          </main>
+
+      </>
   )
 }
 
