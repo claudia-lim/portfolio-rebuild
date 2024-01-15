@@ -16,10 +16,10 @@ p {
     padding: 1rem;
     transition: background-color 0.5s, color 0.25s;
     transition-timing-function: ease-in-out;
+    width: 4rem;
 }
 
 .skill-hover {
-    /*border: 1px solid red;*/
     background-color: #363638;
     color: #ffffff;
 }

@@ -16,7 +16,7 @@ function SkillsAtom ({icon, skillName, link}) {
             <div onMouseOver={onMouseOver} onMouseOut={onMouseOut} className={'skill-type ' + hover}>
 
                 <p className="skill-icon">{icon}</p>
-                <p>{skillName}</p>
+                <p className="skill-name">{skillName}</p>
 
 </div>
         </a>

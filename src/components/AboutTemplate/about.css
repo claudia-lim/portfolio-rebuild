@@ -1,7 +1,7 @@
 #about-section {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 5rem 1rem 1rem 1rem;
 }
 
 #about-section h3 {
@@ -13,4 +13,10 @@
 
 .emphasis a:hover{
     color: red;
+}
+
+@media screen and (max-width:500px) {
+    #about-section {
+        padding-top: 3rem;
+    }
 }
