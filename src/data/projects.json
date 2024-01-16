@@ -1,20 +1,53 @@
 {
   "projects": [
     {
-      "name": "project1 test",
-      "src": "https://placedog.net/500/300",
-      "alt": "test1",
-      "liveLink": "https://placedog.net/500/300",
-      "githubLink": "",
-      "description": "project 1 test"
+      "name": "Paint Collection App",
+      "src": "../src/assets/projectscreenshots/collection-app-screenshot1.png",
+      "alt": "Screenshot of paint collection app",
+      "liveLink": "https://2023-claudial.dev.io-academy.uk/collection-app/",
+      "githubLink": "https://github.com/claudia-lim/collection-app",
+      "description": "This project used PHP and SQL to create a collection app.\nThe app has the functionality of being able to archive paints, add new ones and re-instate archived ones."
     },
     {
-      "name": "test2",
-      "src": "https://placedog.net/200/300",
-      "alt": "test2",
-      "liveLink": "",
-      "githubLink": "",
-      "description": "project 2 test"
+      "name": "Brainworms Boneyard Game",
+      "src": "../src/assets/projectscreenshots/boneyards-game-screenshot1.png",
+      "alt": "Screenshot of boneyard card game",
+      "liveLink": "https://dev.io-academy.uk/projects/2023-aug/23-aug-pairs/index.html",
+      "githubLink": "https://github.com/iO-Academy/23-aug-pairs",
+      "description": "The Brainworms' Boneyard is a Halloween themed card matching game where clicking on cards reveals the hidden card. On correct matching of a pair the cards remain visible, until all the card pairs have been found. The time taken to do this is presented to the player at the end of the game.\nWe also incorporated sound effects, card transitions and cursors for a fun game experience."
+
+    },
+    {
+      "name": "Invoicing App",
+      "src": "../src/assets/projectscreenshots/invoices-app-screenshot2.png",
+      "alt": "Screenshot of invoicing app",
+      "liveLink": "https://23-aug-invoicing.dev.io-academy.uk/",
+      "githubLink": "https://github.com/iO-Academy/23-aug-invoicing",
+      "description": "Using a provided API, this invoicing app was built in React.It is able to display all invoice types, sort them by status, display individual invoices and add new ones."
+    },
+    {
+      "name": "Furniture Store API",
+      "src": "../src/assets/projectscreenshots/furniture-api-screenshot.png",
+      "alt": "Screenshot of furniture store app",
+      "liveLink": "https://furniture-store.dev.io-academy.uk/",
+      "githubLink": "https://github.com/iO-Academy/23-aug-furniture-store-API",
+      "description": "This was a back-end project using PHP to create an API for a fictional furniture store, which was then used by a provided React front-end. This project was focussed on object orientated programming. Functionality includes conversion into different currencies and measurements, only displaying products that are in stock, and displaying individual product details."
+    },
+    {
+      "name": "iO Academy Portal",
+      "src": "../src/assets/projectscreenshots/iO-academy-portal-screenshot1.png",
+      "alt": "Screenshot of iO Academy Portal project",
+      "liveLink": "https://portal.dev.io-academy.uk/",
+      "githubLink": "https://github.com/iO-Academy/AcademyPortal",
+      "description": "Worked on the legacy code of the iO Academy Portal. This site is where administrators for the academy can process student applications, courses, events, trainers and hiring partners. My role in the project involved fixing bugs, such as preventing students from being assigned to courses that had already passed, preventing applicants from accessing their profile pages before they were officially designated as students, and adding new functionality to allow editing of courses."
+    },
+    {
+      "name": "Roman Numerals Converter",
+      "src": "../src/assets/projectscreenshots/roman-numerals-screenshot1.png",
+      "alt": "Screenshot of roman numerals converter",
+      "liveLink": "https://claudia-lim.github.io/roman-numerals/",
+      "githubLink": "https://github.com/claudia-lim/roman-numerals",
+      "description": "I built a roman numerals converter where, on entering an integer between 0 and 3000, the roman numeral equivalent is calculated and displayed in real time."
     },
     {
       "name": "test3",
