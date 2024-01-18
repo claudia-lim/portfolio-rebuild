@@ -1,0 +1,50 @@
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    /*font-size: 18px;*/
+    /*background: #fff;*/
+
+    /* Center slide text vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-card-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.project-card-slider p {
+    font-size: 0.85rem;
+    margin-top: 1rem ;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.project-card-slider a {
+    display: contents;
+}

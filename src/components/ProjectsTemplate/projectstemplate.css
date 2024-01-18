@@ -4,14 +4,46 @@
     justify-content: center;
     align-items: center;
     padding-top: 5rem;
+    width: 100%;
 }
 
-.experiment-scroll {
-    overflow: auto;
-    white-space: nowrap;
-    width: 80vw;
+.indicator-bar {
     display: flex;
-    gap: 2rem;
+    margin: 1rem auto;
+}
+
+.indicator-highlighted {
+    color: red;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /*height: fit-content;*/
+    position: relative;
+}
+
+.carousel-button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    background-color: rgba(54, 54, 56, 0);
+}
+
+.carousel-button :hover {
+    color: #707073;
+}
+
+.button-left {
+    /*position: absolute;*/
+    /*left: 0;*/
+}
+
+.button-right {
+    /*position:absolute;*/
+    /*right: 0;*/
 }
 
 @media screen and (max-width:500px) {

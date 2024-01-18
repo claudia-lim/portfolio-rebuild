@@ -17,39 +17,39 @@ nav {
     gap: 0.5rem;
 }
 
-a, a :visited{
+#navbar a, a :visited{
     color: #363638;
     text-decoration: none;
 }
 
-button {
+#navbar button {
     border: 0;
     background-color: rgba(255, 255, 255, 0);
 }
 
-button :hover {
+#navbar button :hover {
     background-color: rgba(0, 0, 0, 0.65);
     color: #ffffff;
     transition: background-color 0.5s, color 0.5s;
 }
 
-button a {
+#navbar button a {
     padding: 0.5rem;
 }
 
-.socials-links {
+#navbar .socials-links {
     padding: 0.5rem;
     display:flex;
     justify-content: flex-end;
     width: 100%;
 }
 
-.social-icon {
+#navbar .social-icon {
     padding: 0 0.3rem;
     font-size: 2rem;
 }
 
-.logo {
+#navbar .logo {
     display:flex;
 }
 
@@ -65,11 +65,11 @@ button a {
         gap: 0;
     }
 
-    .logo {
+    #navbar .logo {
         display: none;
     }
 
-    .socials-links {
+    #navbar .socials-links {
         display: none;
     }
 }

@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Paint Collection App",
-      "src": "../src/assets/projectscreenshots/collection-app-screenshot1.png",
+      "src": "../src/assets/projectscreenshots/collection-app-screenshot2.png",
       "alt": "Screenshot of paint collection app",
       "liveLink": "https://2023-claudial.dev.io-academy.uk/collection-app/",
       "githubLink": "https://github.com/claudia-lim/collection-app",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Brainworms Boneyard Game",
-      "src": "../src/assets/projectscreenshots/boneyards-game-screenshot1.png",
+      "src": "../src/assets/projectscreenshots/boneyards-game-screenshot2.png",
       "alt": "Screenshot of boneyard card game",
       "liveLink": "https://dev.io-academy.uk/projects/2023-aug/23-aug-pairs/index.html",
       "githubLink": "https://github.com/iO-Academy/23-aug-pairs",
@@ -19,7 +19,7 @@
     },
     {
       "name": "Invoicing App",
-      "src": "../src/assets/projectscreenshots/invoices-app-screenshot2.png",
+      "src": "../src/assets/projectscreenshots/invoices-app-screenshot1.png",
       "alt": "Screenshot of invoicing app",
       "liveLink": "https://23-aug-invoicing.dev.io-academy.uk/",
       "githubLink": "https://github.com/iO-Academy/23-aug-invoicing",
@@ -27,7 +27,7 @@
     },
     {
       "name": "Furniture Store API",
-      "src": "../src/assets/projectscreenshots/furniture-api-screenshot.png",
+      "src": "../src/assets/projectscreenshots/furniture-api-screenshot2.png",
       "alt": "Screenshot of furniture store app",
       "liveLink": "https://furniture-store.dev.io-academy.uk/",
       "githubLink": "https://github.com/iO-Academy/23-aug-furniture-store-API",
@@ -35,7 +35,7 @@
     },
     {
       "name": "iO Academy Portal",
-      "src": "../src/assets/projectscreenshots/iO-academy-portal-screenshot1.png",
+      "src": "../src/assets/projectscreenshots/iO-academy-portal-screenshot2.png",
       "alt": "Screenshot of iO Academy Portal project",
       "liveLink": "https://portal.dev.io-academy.uk/",
       "githubLink": "https://github.com/iO-Academy/AcademyPortal",
@@ -43,19 +43,12 @@
     },
     {
       "name": "Roman Numerals Converter",
-      "src": "../src/assets/projectscreenshots/roman-numerals-screenshot1.png",
+      "src": "../src/assets/projectscreenshots/roman-numerals-screenshot2.png",
       "alt": "Screenshot of roman numerals converter",
       "liveLink": "https://claudia-lim.github.io/roman-numerals/",
       "githubLink": "https://github.com/claudia-lim/roman-numerals",
       "description": "I built a roman numerals converter where, on entering an integer between 0 and 3000, the roman numeral equivalent is calculated and displayed in real time."
-    },
-    {
-      "name": "test3",
-      "src": "https://placedog.net/800/300",
-      "alt": "test3",
-      "liveLink": "",
-      "githubLink": "",
-      "description": "project 3 test"
     }
+
   ]
 }
