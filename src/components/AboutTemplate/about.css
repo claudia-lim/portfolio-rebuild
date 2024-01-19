@@ -5,7 +5,11 @@
 }
 
 #about-section h3 {
-    align-self: center;
+    letter-spacing: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: solid 1px;
+
 }
 .emphasis {
     font-weight: bold;
@@ -17,6 +21,7 @@
 
 @media screen and (max-width:500px) {
     #about-section {
-        padding-top: 3rem;
+        padding: 3rem 0.5rem 1rem 0.5rem;
+        line-height: 1.25rem;
     }
 }

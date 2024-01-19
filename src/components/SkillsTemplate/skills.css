@@ -14,18 +14,23 @@
     margin: 1rem;
 }
 
-.skills-title h3 {
+#skills-section h3 {
+    letter-spacing: 1rem;
     text-align: center;
+    text-transform: uppercase;
+    border-bottom: solid 1px;
+    width: 100%;
 }
 
 @media screen and (max-width:500px) {
     #skills {
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-wrap: wrap;
         width: 100%;
     }
 
     #skills-section {
         padding-top: 3rem;
+        width: 100%;
     }
 }

@@ -11,7 +11,7 @@ function AboutTemplate () {
                 I am well versed in the use of <span className="emphasis">PHP, HTML, CSS, Javascript/Typescript</span> for full stack development.
             </p>
             <p>
-                Please have a look through some of my projects to see examples of my work. Do get in contact if you'd like to connect!
+                Please have a look through some of my projects to see examples of my work. Do get in <span className="emphasis"><a href="#contact">contact</a></span> if you'd like to connect!
             </p>
         </div>
     )

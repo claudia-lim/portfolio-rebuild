@@ -1,9 +1,8 @@
 import "./projectstemplate.css";
 import {projects} from "../../data/projects.json"
-import ProjectMolecule from "../ProjectMolecule/index.jsx";
 import {useRef, useState} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faCaretLeft, faCaretRight, faCircle} from "@fortawesome/free-solid-svg-icons";
+import {faCaretLeft, faCaretRight, faCircle, faLink} from "@fortawesome/free-solid-svg-icons";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,6 +14,7 @@ import './styles.css';
 
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
+import {faSquareGithub} from "@fortawesome/free-brands-svg-icons";
 
 
 function ProjectsTemplate() {
@@ -39,7 +39,7 @@ function clickRight () {
     return (
         <>
         <div id="projects">
-            <h3>Projects Section</h3>
+            <h3>Projects</h3>
         {/*    <div className="carousel">*/}
 
         {/*        <button onClick={clickLeft} className="carousel-button button-left">*/}
@@ -90,16 +90,26 @@ function clickRight () {
                         return <SwiperSlide key={index}>
                             <div className="project-card-slider">
                                 <h4>{project.name}</h4>
-                                <a href={project.liveLink}>
-                                <img src={project.src}></img></a>
+                                <a href={project.liveLink} target="_blank">
+                                    <img src={project.src}></img></a>
+                                <p className="tech-stack">{project.techStack}</p>
+                                <p className="project-icons">
+                                   <a href={project.githubLink} target="_blank">
+                                       <FontAwesomeIcon icon={faSquareGithub}/>
+                                   </a>
+                                    <a href={project.liveLink} target="_blank">
+                                        <FontAwesomeIcon icon={faLink}/>
+                                    </a>
+                                </p>
                                 <p>{project.description}</p>
+
                             </div>
                         </SwiperSlide>
                     })}
                 </Swiper>
         </div>
-    </>
-)
+        </>
+    )
 }
 
 export default ProjectsTemplate

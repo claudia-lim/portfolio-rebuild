@@ -1,5 +1,5 @@
 #navbar {
-    position: fixed;
+    position: sticky;
     top:0;
     right: 0;
     left: 0;
@@ -9,17 +9,13 @@
     justify-content: space-between;
     margin: 0 auto;
     padding: 1rem;
+    z-index: 1;
 }
 
 nav {
     padding: 0.5rem;
     display: flex;
     gap: 0.5rem;
-}
-
-#navbar a, a :visited{
-    color: #363638;
-    text-decoration: none;
 }
 
 #navbar button {
@@ -35,6 +31,7 @@ nav {
 
 #navbar button a {
     padding: 0.5rem;
+    /*font-size: 0.5rem;*/
 }
 
 #navbar .socials-links {
