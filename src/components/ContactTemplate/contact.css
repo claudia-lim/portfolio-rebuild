@@ -1,6 +1,10 @@
 #contact {
     padding-top: 5rem;
     width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #contact h3 {
@@ -9,6 +13,67 @@
     text-transform: uppercase;
     border-bottom: solid 1px;
     width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /*background-color: #707073;*/
+    padding: 1rem;
+    width: 80%;
+    /*align-items: center;*/
+}
+
+#contact a{
+    /*text-decoration: underline;*/
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+#contact a:hover {
+
+    color: red;
+}
+
+.contact-form input, .contact-form textarea {
+    font-family: Futura, sans-serif;
+}
+
+.contact-form input:focus-visible, .contact-form textarea:focus-visible {
+    /*border: 0;*/
+    outline: red auto 1px;
+
+    /*border-radius: 0.1rem;*/
+}
+
+.contact-form .from-name {
+    height: 2rem;
+}
+
+.contact-form .reply-to {
+    height: 2rem;
+}
+
+.contact-form .message {
+    height: 5rem;
+}
+
+.contact-form textarea {
+    width: 100%;
+}
+
+.contact-form .submit-button {
+    width: fit-content;
+    justify-self: center;
+    align-self: center;
+    border: 0;
+    padding: 1rem;
+    letter-spacing: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: pre;
 }
 
 @media screen and (max-width:500px) {
