@@ -24,6 +24,14 @@ a, a :visited{
     text-decoration: none;
 }
 
+footer {
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    /*position: absolute;*/
+    margin: 1rem;
+}
+
 @media screen and (max-width:500px) {
     main {
         width: 100%;

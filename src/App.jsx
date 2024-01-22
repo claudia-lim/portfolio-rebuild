@@ -8,7 +8,6 @@ import ProjectsTemplate from "./components/ProjectsTemplate/index.jsx";
 import ContactTemplate from "./components/ContactTemplate/index.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
       <>
@@ -21,6 +20,7 @@ function App() {
               <ProjectsTemplate />
               <ContactTemplate />
           </main>
+          <footer>-Claudia Lim 2024-</footer>
 
       </>
   )
