@@ -8,7 +8,7 @@ function HeaderTemplate () {
             <div className="header-text">
                 <h1>Hi, I'm Claudia!</h1>
                 <h3>Doctor turned Software Developer</h3>
-                <p>Navigating the realms of full-stack development to merge creativity, functionality, and technology seamlessly.</p>
+                <p>Exploring the world of full-stack development, with a focus on PHP, React and Javascript/Typescript.</p>
             </div>
 
         </div>

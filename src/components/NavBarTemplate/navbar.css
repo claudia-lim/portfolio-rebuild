@@ -31,6 +31,9 @@ nav {
 
 #navbar button a {
     padding: 0.5rem;
+    font-family: Futura, sans-serif;
+    text-transform: uppercase;
+    /*font-weight: lighter;*/
     /*font-size: 0.5rem;*/
 }
 

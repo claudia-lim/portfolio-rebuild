@@ -4,8 +4,10 @@ html {
     scroll-behavior: smooth;
     color: #363638;
     background-color: #ffffff;
-    font-family: 'DM Sans', sans-serif;
+    /*font-family: 'DM Sans', sans-serif;*/
     font-size: 1.25rem;
+    font-family: Futura, sans-serif;
+    width: 100%;
 }
 
 main {
