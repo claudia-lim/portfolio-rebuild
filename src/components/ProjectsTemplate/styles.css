@@ -1,5 +1,5 @@
 :root {
-    --swiper-theme-color: rgba(0, 0, 0, 0.76);
+    --swiper-theme-color: rgb(255, 159, 0);
 }
 
 .swiper {
@@ -28,13 +28,17 @@
     height: 50vh;
     object-fit: cover;
     filter: drop-shadow(0 0 0.25rem #707073);
+    transition: transform 1s;
+}
 
+.swiper-slide img:hover {
+    transform: scale(105%);
 }
 
 .swiper {
     margin-left: auto;
     margin-right: auto;
-    background-color: #e9e9e9;
+    background-color: #ffffff;
 }
 
 .project-card-slider {
@@ -68,6 +72,10 @@
 
 .project-card-slider .project-icons a {
     color: #4b4b4b;
+}
+
+.project-card-slider .project-icons a :hover{
+    color: #ff9f00;
 }
 
 

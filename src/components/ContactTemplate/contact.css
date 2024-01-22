@@ -21,8 +21,10 @@
     gap: 1rem;
     /*background-color: #707073;*/
     padding: 1rem;
+    margin: 1rem 0;
     width: 80%;
     /*align-items: center;*/
+    background-color: white;
 }
 
 #contact a{
@@ -33,18 +35,18 @@
 
 #contact a:hover {
 
-    color: red;
+    color: #ff9f00;
 }
 
 .contact-form input, .contact-form textarea {
     font-family: Futura, sans-serif;
+    background-color: #dde4ee;
+    outline: none;
+    border: 0;
 }
 
 .contact-form input:focus-visible, .contact-form textarea:focus-visible {
-    /*border: 0;*/
-    outline: red auto 1px;
-
-    /*border-radius: 0.1rem;*/
+    outline: #ff9f00 auto 1px;
 }
 
 .contact-form .from-name {
@@ -74,6 +76,10 @@
     text-transform: uppercase;
     cursor: pointer;
     white-space: pre;
+}
+
+.contact-form .submit-button:hover {
+    color: #ff9f00;
 }
 
 @media screen and (max-width:500px) {

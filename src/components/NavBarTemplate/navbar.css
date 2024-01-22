@@ -24,8 +24,9 @@ nav {
 }
 
 #navbar button :hover {
-    background-color: rgba(0, 0, 0, 0.65);
-    color: #ffffff;
+    background-color: rgb(221, 228, 238);
+    /*color: #e67e22;*/
+    /*color: #ffffff;*/
     transition: background-color 0.5s, color 0.5s;
 }
 

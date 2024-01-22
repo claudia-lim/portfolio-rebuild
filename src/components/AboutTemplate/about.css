@@ -12,11 +12,19 @@
 
 }
 .emphasis {
-    font-weight: bold;
+    /*font-weight: bold;*/
+    background-color: #dde4ee;
+    letter-spacing: 0.06rem;
+}
+
+.emphasis a {
+    /*color: #e67e22;*/
+
 }
 
 .emphasis a:hover{
-    color: red;
+    background-color: #ff9f00;
+    color: #ffffff;
 }
 
 @media screen and (max-width:500px) {
