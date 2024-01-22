@@ -73,4 +73,8 @@ nav {
     #navbar .socials-links {
         display: none;
     }
+
+    #navbar button a {
+        padding: 0;
+    }
 }
