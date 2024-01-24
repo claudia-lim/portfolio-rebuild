@@ -4,7 +4,7 @@ function HeaderTemplate () {
 
     return (
         <div className="header">
-            <img src="../src/assets/profile-round.png"></img>
+            <img src="/assets/profile-round.png"></img>
             <div className="header-text">
                 <h1>Hi, I'm Claudia!</h1>
                 <h3>Doctor turned Software Developer</h3>
