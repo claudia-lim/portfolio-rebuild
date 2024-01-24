@@ -53,6 +53,15 @@
       "githubLink": "https://github.com/claudia-lim/roman-numerals",
       "description": "I built a roman numerals converter where, on entering an integer between 0 and 3000, the roman numeral equivalent is calculated and displayed in real time.",
       "techStack": "Typescript/React/HTML/CSS"
+    },
+    {
+      "name": "Sunrise/Sunset Calculator",
+      "src": "../src/assets/projectscreenshots/sunrise-sunset-screenshot1.png",
+      "alt": "Screenshot of sunrise sunset calculator",
+      "liveLink": "https://sunrise-sunset.2023-claudial.dev.io-academy.uk/",
+      "githubLink": "https://github.com/claudia-lim/sunrise-sunset",
+      "description": "My challenge was to create an app that displays the sunrise and sunset times of a selected city. The project helped improve my confidence in interacting with APIs (three were used in total for this app) and further practice at building in React.",
+      "techStack": "Javascript/React/HTML/CSS"
     }
 
   ]
